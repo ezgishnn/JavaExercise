@@ -1,12 +1,10 @@
 package package2;
 
-import Example1.Variables;
+import Example1.VariablesCreating;
 
 public class callVariables {
     public static void main(String[] args) {
-        Variables.Osman();
-        System.out.println(Variables.publicStaticVariable);//we can call only public static variable
-        //we can not call static variable because it is not public
-
+        System.out.println(VariablesCreating.publicStaticVariable);//we can call only public static variable.
+        // if static variable is not public, we can not call it
     }
 }
