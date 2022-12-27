@@ -2,8 +2,9 @@ package Example1;
 
 import java.util.Scanner;
 
-public class Palindrome {
+public class PalindromeString {
     public static void main(String[] args) {
+        //How to check String is Palindrome or not
         Scanner sc = new Scanner(System.in);
         System.out.println("Please enter a String: ");
         String name = sc.nextLine();
